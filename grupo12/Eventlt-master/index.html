@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4b9216bfae124ba6a14c0749905e483c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4b9216bfae124ba6a14c0749905e483c" ></div>
+        
+</body>
+<script>    
+    
+            var map_4b9216bfae124ba6a14c0749905e483c = L.map(
+                "map_4b9216bfae124ba6a14c0749905e483c",
+                {
+                    center: [-38.554549, -58.739262],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61583a6ce5e247a290323ec4a256736a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4b9216bfae124ba6a14c0749905e483c);
+        
+    
+            var marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f = L.markerClusterGroup(
+                {}
+            );
+            map_4b9216bfae124ba6a14c0749905e483c.addLayer(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+            var marker_b7fc8f555e83400f8918d1579e18d8b3 = L.marker(
+                [-34.096539, -59.021483],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_361e4b4b4173411b9b67a307b1c8cfe6 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a87d6d60bf024b2aacacd601ebaa0549 = $(`<div id="html_a87d6d60bf024b2aacacd601ebaa0549" style="width: 100.0%; height: 100.0%;">Carrerita</div>`)[0];
+            popup_361e4b4b4173411b9b67a307b1c8cfe6.setContent(html_a87d6d60bf024b2aacacd601ebaa0549);
+        
+
+        marker_b7fc8f555e83400f8918d1579e18d8b3.bindPopup(popup_361e4b4b4173411b9b67a307b1c8cfe6)
+        ;
+
+        
+    
+    
+            marker_b7fc8f555e83400f8918d1579e18d8b3.bindTooltip(
+                `<div>
+                     Carrera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bdab5d980534d9bb9581120396713f9 = L.marker(
+                [-34.097835, -59.020207],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_5659b652ff17415a820309f6436622a0 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_330b404c6699441eb722e9c03b65ec21 = $(`<div id="html_330b404c6699441eb722e9c03b65ec21" style="width: 100.0%; height: 100.0%;">Rojo</div>`)[0];
+            popup_5659b652ff17415a820309f6436622a0.setContent(html_330b404c6699441eb722e9c03b65ec21);
+        
+
+        marker_5bdab5d980534d9bb9581120396713f9.bindPopup(popup_5659b652ff17415a820309f6436622a0)
+        ;
+
+        
+    
+    
+            marker_5bdab5d980534d9bb9581120396713f9.bindTooltip(
+                `<div>
+                     Semaforo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f6d1eba1c0147369f67bc9b6a71e0cb = L.marker(
+                [-34.099878, -59.024424],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_37f0eaaac4cc44f2afdf56450883fdb7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_7d5a49ded5c746f8969f8f148ee4eb7a = $(`<div id="html_7d5a49ded5c746f8969f8f148ee4eb7a" style="width: 100.0%; height: 100.0%;">La Clandes</div>`)[0];
+            popup_37f0eaaac4cc44f2afdf56450883fdb7.setContent(html_7d5a49ded5c746f8969f8f148ee4eb7a);
+        
+
+        marker_5f6d1eba1c0147369f67bc9b6a71e0cb.bindPopup(popup_37f0eaaac4cc44f2afdf56450883fdb7)
+        ;
+
+        
+    
+    
+            marker_5f6d1eba1c0147369f67bc9b6a71e0cb.bindTooltip(
+                `<div>
+                     Fiesta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5093613f2d01427eb1ccda91dc1ee82f = L.marker(
+                [-34.456986, -58.915867],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_e83226020fce4803941f5ad196697ea7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_78da8717653c4182ba21d4fe0a79ada1 = $(`<div id="html_78da8717653c4182ba21d4fe0a79ada1" style="width: 100.0%; height: 100.0%;">de chocolate</div>`)[0];
+            popup_e83226020fce4803941f5ad196697ea7.setContent(html_78da8717653c4182ba21d4fe0a79ada1);
+        
+
+        marker_5093613f2d01427eb1ccda91dc1ee82f.bindPopup(popup_e83226020fce4803941f5ad196697ea7)
+        ;
+
+        
+    
+    
+            marker_5093613f2d01427eb1ccda91dc1ee82f.bindTooltip(
+                `<div>
+                     haciendo galletitas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cae80a02ce334325b813e784389c5a90 = L.marker(
+                [-34.455871, -58.917508],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_f433174bc1e842ea84a75eac9029e0b5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_8bbbe7711c78470299fb29c320b46de1 = $(`<div id="html_8bbbe7711c78470299fb29c320b46de1" style="width: 100.0%; height: 100.0%;">chocolates y turrones a mitad de precio</div>`)[0];
+            popup_f433174bc1e842ea84a75eac9029e0b5.setContent(html_8bbbe7711c78470299fb29c320b46de1);
+        
+
+        marker_cae80a02ce334325b813e784389c5a90.bindPopup(popup_f433174bc1e842ea84a75eac9029e0b5)
+        ;
+
+        
+    
+    
+            marker_cae80a02ce334325b813e784389c5a90.bindTooltip(
+                `<div>
+                     venta de maria juana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbec79ff9d964ac882fdb6a271f74fdf = L.marker(
+                [-34.608113, -58.436174],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_2ebfa40ceb704c4a8ff7da8cd52b4f55 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_10a69dbbb2c0460ba23c302925fbe953 = $(`<div id="html_10a69dbbb2c0460ba23c302925fbe953" style="width: 100.0%; height: 100.0%;">con membrillo</div>`)[0];
+            popup_2ebfa40ceb704c4a8ff7da8cd52b4f55.setContent(html_10a69dbbb2c0460ba23c302925fbe953);
+        
+
+        marker_cbec79ff9d964ac882fdb6a271f74fdf.bindPopup(popup_2ebfa40ceb704c4a8ff7da8cd52b4f55)
+        ;
+
+        
+    
+    
+            marker_cbec79ff9d964ac882fdb6a271f74fdf.bindTooltip(
+                `<div>
+                     venta de medialunas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50f4c61cf1524e5da9e1e697b25b9861 = L.marker(
+                [-37.997993, -57.549437],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_a39b9ba586a44656b9789afb9de7cf17 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_e737cbafee104bce8d3569c62c0cee41 = $(`<div id="html_e737cbafee104bce8d3569c62c0cee41" style="width: 100.0%; height: 100.0%;">con mediomundo o harpon</div>`)[0];
+            popup_a39b9ba586a44656b9789afb9de7cf17.setContent(html_e737cbafee104bce8d3569c62c0cee41);
+        
+
+        marker_50f4c61cf1524e5da9e1e697b25b9861.bindPopup(popup_a39b9ba586a44656b9789afb9de7cf17)
+        ;
+
+        
+    
+    
+            marker_50f4c61cf1524e5da9e1e697b25b9861.bindTooltip(
+                `<div>
+                     caza de lobos marinos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ce76de649524531b224598ec85cc309 = L.marker(
+                [-38.551659, -58.727559],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_20a6734c4c154af3a1c2d154ba6e4da4 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b026703a4e2e44dcbfe90b776e9c8838 = $(`<div id="html_b026703a4e2e44dcbfe90b776e9c8838" style="width: 100.0%; height: 100.0%;">Calle 50 3535 Lopez farlopa</div>`)[0];
+            popup_20a6734c4c154af3a1c2d154ba6e4da4.setContent(html_b026703a4e2e44dcbfe90b776e9c8838);
+        
+
+        marker_1ce76de649524531b224598ec85cc309.bindPopup(popup_20a6734c4c154af3a1c2d154ba6e4da4)
+        ;
+
+        
+    
+    
+            marker_1ce76de649524531b224598ec85cc309.bindTooltip(
+                `<div>
+                     Fiestuki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4718707bcec040e799b06de90cdf9424 = L.marker(
+                [-37.999552, -57.550545],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_26ae2af67325448996afe464d41be165 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_0a25c42381ac4ba5bc7165847e06a8a4 = $(`<div id="html_0a25c42381ac4ba5bc7165847e06a8a4" style="width: 100.0%; height: 100.0%;">playa</div>`)[0];
+            popup_26ae2af67325448996afe464d41be165.setContent(html_0a25c42381ac4ba5bc7165847e06a8a4);
+        
+
+        marker_4718707bcec040e799b06de90cdf9424.bindPopup(popup_26ae2af67325448996afe464d41be165)
+        ;
+
+        
+    
+    
+            marker_4718707bcec040e799b06de90cdf9424.bindTooltip(
+                `<div>
+                     playa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c59e18e58048499ba9308f387604672b = L.marker(
+                [-34.456896, -58.915251],
+                {}
+            ).addTo(marker_cluster_97e44e1cbb2c4f818e0779b3a50dc66f);
+        
+    
+        var popup_c76421980aab4ac9b7f3710fbd1ff3da = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_31eae1fd18b84ef987d2497ce7ab7562 = $(`<div id="html_31eae1fd18b84ef987d2497ce7ab7562" style="width: 100.0%; height: 100.0%;">chau</div>`)[0];
+            popup_c76421980aab4ac9b7f3710fbd1ff3da.setContent(html_31eae1fd18b84ef987d2497ce7ab7562);
+        
+
+        marker_c59e18e58048499ba9308f387604672b.bindPopup(popup_c76421980aab4ac9b7f3710fbd1ff3da)
+        ;
+
+        
+    
+    
+            marker_c59e18e58048499ba9308f387604672b.bindTooltip(
+                `<div>
+                     Hola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

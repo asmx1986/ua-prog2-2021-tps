@@ -1,0 +1,3 @@
+class tableroStats:
+    listaEventos = []
+

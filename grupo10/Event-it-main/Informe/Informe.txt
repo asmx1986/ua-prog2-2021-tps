@@ -1,0 +1,38 @@
+Para esta primera entrega logramos realizar lo visto en la próxima enumeración:
+
+Para la clase creada ABM le dimos tres métodos. Estos se llaman: crearAdministrador,eliminarAdministrador y modificarAdministrador.
+El primero consiste en la creación de un nuevo administrador.
+Aquí se nos permitirá tener un nuevo usuario administrativo quien luego tendrá acceso a ciertas funciones no aptas para todo usuario.
+Los próximos dos no están desarrollados todavía, por ende el “pass” está debajo del método.
+En la clase Administrador creamos el inicializador __init__ y 7 métodos.
+La siguiente enumeración pertenece a los métodos: booleanNumericoAccesoAABM, AdministradorString, getUsuario, getContraseña, desbloquearCiudadano, bloquearCiudadano, CreartipodeEvento.
+Estos son equivalentes a la cantidad de tareas accesibles por los usuarios administradores.
+En booleanNumericoAccesoAABM se comprueba si el usuario administrador ya fue creado y si quedó en listado en la base de datos.
+En AdministradorString creamos un string el cual nos guarda el usuario y su contraseña para luego ser emparejado en el método de persistencia el cual falta agregar.
+Los métodos getUsuario y getContraseña nos devuelven los parámetros usuario y contraseña del objeto respectivamente.
+En desbloquearCiudadano el código escrito verifica si el ciudadano está bloqueado, si el mismo no se encuentra bloqueado sus solicitudes rechazadas bajan a 0.
+En bloquearCiudadano se nos permite bloquear al mismo de participar en los eventos, etc… El último método no está definido todavía.
+La clase Ciudadano está compuesta por el inicializador __init__ y 7 métodos.
+Estos son: booleannumericoestabloqueado , crearEvento , ciudadanoString , aceptarSolicitud, rechazarSolicitud , envirSolicitud.
+En el primer método hallamos si el ciudadano se encuentra bloqueado o no.
+Dado el resultado verdadero o falso, lo convertimos en los valores numéricos 1 o 0 para luego poder transformarlo en un String.
+En el método crearEvento le dimos acceso al ciudadano de poder compartir con los pares de ciudadanos que tiene la solicitud aceptada el evento creado por un administrador.
+En ciudadanoString aplicamos el mismo procedimiento que en AdministradorString en la clase Administrador.
+En los métodos AceptarSolicitud y RechazarSolicitud nos vimos obligados a tener que dejarlos incompletos debido a falta de la creación de métodos y clases de persistencia.
+Por último, en el metodo EnviarSolicitud analizamos las posibles situaciones en las que se encuentra el ciudadano. Si el mismo se encuentra bloqueado no podrá enviar una solicitud.
+En caso de estar desbloqueado se analiza si el evento alcanzó su capacidad máxima de participantes.
+En caso de que haya alcanzado su capacidad máxima el ciudadano no podrá atender al mismo.
+Y en el posible caso de que sobre espacio en el evento, se tomará la solicitud del ciudadano y se le aceptara a asistir al mismo.
+En la clase evento creamos un método __init__ en el cual definimos las bases de los eventos.
+Luego creamos 4 sub métodos, los cuales llamamos: booleanNumericoEstaLLeno, EventoString, VerificarSiEstaLleno, contabilizadorPersonas.
+En el primer sub-método aplicamos lo mismo que en:  booleanNumericoEstaBloqueado.
+Igualamos los resultados de True y False a 1 y 0 para luego poder convertirlos en un string.
+En EventoString aplicamos el mismo método que en  AdministradorString y CiudadanoString.
+En el método VerificarSiEstaLleno aplicamos un If para poder hallar si ya se llego al limite de ciudadanos permitidos en el evento.
+En el caso de que se haya llegado al límite se le envía un mensaje al ciudadano diciéndole que el evento ya llegue a su capacidad máxima y que no podrá asistir.
+Siendo el caso contrario, se le envía al ciudadano que podrá asistir.
+Por último, en el método contabilizadorPersonas nos permita hallar cuántas personas están asistiendo al evento por el momento y cuando llega a su capacidad máxima de participantes.
+En la clase solicitud definimos un método __init__ y un método llamado EventoString.
+En el último creamos un string el cual nos guarda las bases de la solicitud para luego ser emparejado en el método de persistencia el cual falta agregar.
+En la clase Anses logramos nombrar a los métodos que vamos a utilizar pero no pudimos desarrollar código dentro de los mismo ya que se basan principalmente en el uso de persistencia.
+A continuación el nombre de los mismos: __init__ , escribirAdministrador, escribirEvento, escribirSolicitud y leerUsuarios

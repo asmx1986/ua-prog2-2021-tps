@@ -1,0 +1,119 @@
+{
+    "1": {
+        "_id": "1",
+        "concurrency": 12,
+        "event": {
+            "description": "Concierto 1",
+            "zone": 1,
+            "type_event": "Concert"
+        }
+    },
+    "2": {
+        "_id": "2",
+        "concurrency": 123,
+        "event": {
+            "description": "Concierto 2",
+            "zone": 3,
+            "type_event": "Concert"
+        }
+    },
+    "3": {
+        "_id": "3",
+        "concurrency": 1000,
+        "event": {
+            "description": "Concierto 3",
+            "zone": 2,
+            "type_event": "Concert"
+        }
+    },
+    "4": {
+        "_id": "4",
+        "concurrency": 900,
+        "event": {
+            "description": "Concierto 4",
+            "zone": 3,
+            "type_event": "Concert"
+        }
+    },
+    "5": {
+        "_id": "5",
+        "concurrency": 54,
+        "event": {
+            "description": "Concierto 5",
+            "zone": 1,
+            "type_event": "Concert"
+        }
+    },
+    "6": {
+        "_id": "6",
+        "concurrency": 1000,
+        "event": {
+            "description": "Concierto 34",
+            "zone": 1,
+            "type_event": "Concert"
+        }
+    },
+    "7": {
+        "_id": "7",
+        "concurrency": 89,
+        "event": {
+            "description": "Concierto 234",
+            "zone": 1,
+            "type_event": "Concert"
+        }
+    },
+    "8": {
+        "_id": "8",
+        "concurrency": 390,
+        "event": {
+            "description": "Concierto 213",
+            "zone": 1,
+            "type_event": "Concert"
+        }
+    },
+    "1c1803": {
+        "_id": "1c1803",
+        "concurrency": 1,
+        "event": {
+            "description": "sadsads",
+            "zone": 3,
+            "type_event": "Party"
+        }
+    },
+    "641a81": {
+        "_id": "641a81",
+        "concurrency": 1,
+        "event": {
+            "description": "Fiesta de masi",
+            "zone": 4,
+            "type_event": "Party"
+        }
+    },
+    "684136": {
+        "_id": "684136",
+        "concurrency": 1,
+        "event": {
+            "description": "ksajdkdksa",
+            "zone": 2,
+            "type_event": "Party"
+        }
+    },
+    "d81860": {
+        "_id": "d81860",
+        "concurrency": 2,
+        "event": {
+            "description": "cumpleaÃ±os de camisama",
+            "zone": 2,
+            "type_event": "Party"
+        }
+    },
+    "b81430": {
+        "_id": "b81430",
+        "concurrency": 1,
+        "event": {
+            "description": "kjsadksad",
+            "zone": 3,
+            "type_event": "Party"
+        }
+    }
+}

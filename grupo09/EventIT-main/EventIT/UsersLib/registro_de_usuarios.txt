@@ -1,0 +1,9 @@
+Admin/Juan/juan/
+Admin/Jose/jose/
+Ciudadano/Lucas/lucas/1111/12121212/[13131313]/[]/[]/
+Ciudadano/Joaquin/joaquin/2222/13131313/[12121212]/[]/[]/
+Ciudadano/Facundo/facundo/3333/14141414/[]/[]/[]/
+Ciudadano/Pepe/pepe/4444/15151515/[]/[]/[]/
+Ciudadano/Tomas/tomas/5555/16161616/[]/[]/[]/
+Ciudadano/Marcos/Marcos/6666/17171717/[]/[]/[]/
+Ciudadano/Antonio/Antonio/7777/18181818/[]/[]/[]/

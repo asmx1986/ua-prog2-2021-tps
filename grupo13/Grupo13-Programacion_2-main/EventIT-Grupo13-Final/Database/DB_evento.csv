@@ -1,0 +1,9 @@
+Name,Type,Coords_x,Coords_y,State,Description,Participants
+Concierto,Fiesta,1,1,Alta,La banda roky dara 5 temas,1
+Fiesta,Fiesta,1,2,Alta,Cumpleaños de jose,603
+Plaza,Reunion,3,3,Alta,Conjunto de puestos de tiendas,0
+Prueba,Academico,1,1,Alta,Examen fisico de la academia,1110
+Accidente moto,Accidente,1,1,Alta,Accidente que bloquea la calle,560
+Accidente auto,Accidente,3,4,Alta,Accidente que bloquea la calle,0
+Football,Deporte,4,6,Alta,Se juega al golf,507
+Dia del campus,Reunion,0,0,Baja,opus,1

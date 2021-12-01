@@ -1,0 +1,11 @@
+Name,Friends
+Facu,['Nada que encontrar...']
+Okse,['Facu']
+Andy,"['Maximo', 'Andrea', 'gatos', 'Seba']"
+Ana,['Nada que encontrar...']
+Maximo,"['Maximo', 'Andy']"
+Pedro,['Nada que encontrar...']
+Andrea,"['gatos', 'Andy']"
+gatos,"['Andy', 'Andrea']"
+Jose,['Nada que encontrar...']
+Seba,['Andy']

@@ -1,0 +1,7 @@
+nombre,fecha,tipoDeEvento,cantidad_de_personas,cantidad_maxima_de_personas,boolean_numerico_esta_lleno,coordenada_en_x,coordenada_en_y
+partido 5 v 5,2021-12-04 17:00:00,partido de futbol,1,10,0,10.0,50.0
+Cumple del Mike,2021-12-22 00:00:00,cumpleanos,3,50,0,-35.0,14.0
+concierto,2021-12-28 02:30:00,concierto,102,10000,0,90.0,50.0
+Torneo de smash,2021-12-14 16:00:00,juntada en casa,1,8,0,12.0,-5.0
+Fiesta en mi casa,2022-01-01 00:00:00,fiesta,1,50,0,25.0,-60.0
+asado,2021-12-05 14:00:00,ir a comer,7,7,1,10.0,10.0

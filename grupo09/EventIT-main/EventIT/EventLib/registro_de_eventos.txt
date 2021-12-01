@@ -1,0 +1,5 @@
+Fiesta/(1,3)/Evento1/[12121212, 13131313, 16161616]
+Sanitario/(8,6)/Evento2/[14141414, 17171717]
+Social/(2,7)/Evento3/[15151515]
+Privado/(5,5)/Evento4/[18181818]
+Fiesta/(4,4)/Evento5/[]

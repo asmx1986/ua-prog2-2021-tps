@@ -1,0 +1,23 @@
+
+    #El programa se inicia con un menú con las  opciones de iniciar sesión y registrarse, lo cual deberán hacer
+# utilizando su CUIL y teléfono. El menú contiene una función que valida la opción que se elija en registrarse/iniciar sesión.
+# Si el usuario elige salir, antes se confirma si esa es su elección. #Si elige que no  está  seguro de Salir,
+# se vuelve a ver por pantalla el menú principal (registrarse/iniciar sesión).
+
+    #Una vez que el usuario decide iniciar sesion tiene como opcion iniciar sesion como ciudadano, administrador o sensor. 
+# Cuando se inicia sesion (como administrador o ciudadano) se corroborea si el admin/ciudadano existe en un archivo con los 
+# usuarios creados. Depende si ingreso como sensor, administrador o ciudadano tiene distintas opciones.
+
+    #Los ciudadanos los organizamos en un archivo, y tienen la función de enviar solicitud, aceptar/rechazarla y al llegar a
+# 5 rechazadas son bloqueados automáticamente. Estos usuarios bloqueados son organizados en un nuevo archivo. Ademas, tienen la opcion de reportar 
+# eventos que ocurran en determinada zona y cuantas personas afectan.
+
+    #Los administradores tienen mas opciones que los ciudadanos. Pueden crear nuevos administradores, ver una lista de todos los administradores y
+# eliminar a otros administradores. Tambien pueden crear eventos, eliminar eventos y obtener todo tipo de información sobre estos eventos. Todo 
+# guardado en un archivo especifico de eventos. Por ejemplo, pueden ver una lista completa de todos los eventos tomando lugar, pueden ver los 
+# top tres eventos que afectan a mas personas, pueden ver un mapa con todos los eventos y pueden ver un grafico con los picos por zona. Asimismo, 
+# pueden bloquear y desbloquear ciudadanos organizandolos en una nueva lista.
+
+   #Por último, se encuentran los sensores. Cuando ingresas como sensor, se puede acceder como sensor del tipo salud, del tipo seguridad y del tipo
+# otro. Este reporta eventos automaticamente y los guarda en un archivo de eventos. 
+

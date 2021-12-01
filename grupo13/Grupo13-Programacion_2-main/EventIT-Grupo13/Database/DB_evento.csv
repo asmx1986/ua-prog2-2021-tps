@@ -1,0 +1,10 @@
+Type,Coords_x,Coords_y,State,Description,Participants
+Concierto,1,1,Alta,La banda roky dara 5 temas,['Nada que encontrar...']
+Fiesta,1,2,Alta,Cumpleaños de jose,"['Andy', 'Maximo', 'Facu']"
+Plaza,3,3,Alta,Conjunto de puestos de tiendas,['Nada que encontrar...']
+Prueba,1,1,Alta,Examen fisico de la academia,['Facu']
+Accidente moto,1,1,Alta,Accidente que bloquea la calle,['Nada que encontrar...']
+Accidente auto,3,4,Alta,Accidente que bloquea la calle,['Nada que encontrar...']
+Football,4,6,Baja,Se juega al golf,['Nada que encontrar...']
+Dia del campus,0,0,Baja,opus,['Andy']
+asd,0,0,Baja,asd,"['Facu', 'Seba']"
